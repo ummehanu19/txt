@@ -1,0 +1,110 @@
+prg-6
+mkdir 
+cd
+ls
+git init
+git pull"repo code"
+echo"hjk">f1.txt
+git add.
+git commit -m"hello"
+git push origin master
+git remote -v
+git remote add origin"repo code"
+git remote set-url origin "https://token@repocode"
+git push origin master 
+
+
+
+
+prg-7
+
+mkdir umme
+cd umme
+git init 
+gedit f1.txt
+git add f1.txt
+git commit -m "hello"
+gedit f2.txt
+git add f2.txt
+git commit -m "world"
+git tag v1.0
+git tag
+git log 
+
+
+
+
+prg-8
+
+mkdir repoloc
+cd repoloc/
+git init
+git clone "repo code"
+ls
+cd repo/
+ls
+git branch
+git checkout -b feature
+git log
+git checkout main
+echo "1st commit to cherry pick" >f1.txt
+git add .
+git commit -m "1st uplode"
+git log
+git checkout feature
+git cherry pick commit of log 
+git log 
+git remote
+
+
+
+prg-9
+mkdir dir
+cd dir
+git init
+gedit f1.txt
+git add f1.txt
+git commit -m"changes"
+gedit f2.txt
+git add f2.txt
+git commit -m"2nd commit"
+git log
+git show
+git show commit id
+git log
+
+
+prg-10
+mkdir repo2
+cd repo2
+git init 
+git clone"repo code"
+ls
+cd "repo name"
+git branch 
+git log
+echo"f1 added">f1.txt
+git add .
+git commit -m "f1 added"
+echo "f2 added">f2.txt
+git add .
+git commit -m"f2 added"
+echo "f3 added" >f3.txt
+git add .
+git commit -m"f3 added"
+echo "f4 added" >f4.txt
+git add .
+git commit -m "f4 added"
+echo "f5 added"> f5.txt
+git add .
+git commit -m"f5 added"
+git checkout main
+git log
+git push origin main 
+git remote set-url origin "hhtps:token@repo code"
+git push origin main
+git -author="name"--since="2023-01-01"--after="2023-12-3"
+
+
+
+
